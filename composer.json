@@ -1,0 +1,21 @@
+{
+    "name": "mariia2809/pop-it",
+    "description": "Simple mvc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "popova"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.4 | ^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Src\\": "core/Src/",
+            "": "app/"
+        }
+    }
+}
