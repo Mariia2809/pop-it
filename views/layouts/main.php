@@ -11,16 +11,17 @@
 <body>
 <header>
     <nav>
-<!--       <a class="montserrat" href="--><?php //= app()->route->getUrl('/hello') ?><!--">Главная</a>-->
+        <!--<a class="montserrat" href="<?= app()->route->getUrl('/hello') ?>">Главная</a>-->
         <?php
         if (!app()->auth::check()):
             ?>
-<!--            <a href="--><?php //= app()->route->getUrl('/login') ?><!--">Вход</a>-->
-<!--            <a href="--><?php //= app()->route->getUrl('/signup') ?><!--">Регистрация</a>-->
+            <a href="<?= app()->route->getUrl('/login') ?>">Вход</a>
+            <a href="<?= app()->route->getUrl('/signup') ?>">Регистрация</a>
         <?php
         else:
             ?>
             <a href="<?= app()->route->getUrl('/logout') ?>">Выход (<?= app()->auth::user()->name ?>)</a>
+            <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить (<?= app()->auth::user()->name ?>)</a>
         <?php
         endif;
         ?>

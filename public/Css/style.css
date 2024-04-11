@@ -18,10 +18,11 @@ h2{
 form {
     height: 300px;
     width: 500px;
-    background-color: gray;
+    background-color: #8E8E8D;
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
 }
 
 .login{
