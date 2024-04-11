@@ -20,8 +20,8 @@
         <?php
         else:
             ?>
-            <a href="<?= app()->route->getUrl('/logout') ?>">Выход (<?= app()->auth::user()->name ?>)</a>
-            <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить (<?= app()->auth::user()->name ?>)</a>
+            <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
+            <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
         <?php
         endif;
         ?>
@@ -33,3 +33,4 @@
 
 </body>
 </html>
+

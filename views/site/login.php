@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="/pop-it/pop-it-mvc/public/css/login.css">
 <div class="log">
 <h3><?= $message ?? ''; ?></h3>
 
