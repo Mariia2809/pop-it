@@ -55,6 +55,10 @@
             <input type="text" name="position" placeholder="Должность" required><br>
             <select name="department" required>
                 <option value="" disabled selected>Выберите подразделение</option>
+                    <option value="Отдел кадров">Отдел кадров</option>
+                    <option value="Отдел разработки">Отдел разработки</option>
+                    <!-- Добавьте остальные варианты подразделений -->
+
                 <!-- Здесь будут опции для выбора подразделения -->
             </select><br>
             <button type="submit">Добавить</button>

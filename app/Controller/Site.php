@@ -66,4 +66,11 @@ class Site
 
         }
     }
+    public function sort(Request $request): string
+    {
+        if ($request->method === 'GET' ) {
+            return new View('site.sort');
+
+        }
+    }
 }

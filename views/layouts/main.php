@@ -17,13 +17,21 @@
             ?>
             <a href="<?= app()->route->getUrl('/login') ?>">Вход</a>
 <!--            <a href="--><?php //= app()->route->getUrl('/signup') ?><!--">Регистрация</a>-->
-        <?php
-        else:
+        <?php else: ?>
+            <?php
+                if (!app()->auth::checkRole()):
             ?>
-            <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
-            <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
+                    <a href="<?= app()->route->getUrl('/addSub') ?>">Подразделение </a>
+                    <a href="<?= app()->route->getUrl('/employee') ?>">Добавить </a>
+
+            <?php else: ?>
+                <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
+                <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
+            <?php
+                endif;
+            ?>
         <?php
-        endif;
+            endif
         ?>
     </nav>
 </header>
