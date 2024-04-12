@@ -9,3 +9,4 @@ Route::add(['GET', 'POST'], '/login', [Controller\Site::class, 'login']);
 Route::add('GET', '/logout', [Controller\Site::class, 'logout']);
 Route::add('GET', '/employee', [Controller\Site::class, 'employee']);
 Route::add('GET', '/subdivision', [Controller\Site::class, 'subdivision']);
+Route::add('GET', '/addSub', [Controller\Site::class, 'addSub']);

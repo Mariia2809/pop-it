@@ -43,7 +43,7 @@ class Site
     public function logout(): void
     {
         Auth::logout();
-        app()->route->redirect('/hello');
+        app()->route->redirect('/login');
     }
     public function employee(Request $request): string
     {
@@ -56,6 +56,13 @@ class Site
     {
         if ($request->method === 'GET' ) {
             return new View('site.subdivision');
+
+        }
+    }
+    public function addSub(Request $request): string
+    {
+        if ($request->method === 'GET' ) {
+            return new View('site.addSub');
 
         }
     }

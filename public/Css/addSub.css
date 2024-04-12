@@ -1,0 +1,50 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.subdivision-list {
+    width: 50%; /* Ширина блока со списком подразделений */
+    margin-right: 20px; /* Промежуток между блоками */
+}
+
+.subdivision-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.subdivision-list table, .subdivision-list th, .subdivision-list td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.subdivision-list th {
+    background-color: #f2f2f2;
+}
+
+.add-subdivision {
+    width: 50%; /* Ширина блока с формой добавления подразделения */
+}
+
+.add-subdivision input, .add-subdivision select {
+    width: calc(100% - 20px); /* Учитываем отступы */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.add-subdivision button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.add-subdivision button:hover {
+    background-color: #0056b3;
+}

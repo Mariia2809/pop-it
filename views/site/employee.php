@@ -7,8 +7,9 @@
     <link rel="stylesheet" href="/pop-it/pop-it-mvc/public/css/employee.css">
 </head>
 <body>
+<h1>Список сотрудников</h1>
+
 <div class="container">
-    <h1>Сотрудники</h1>
         <table>
             <thead>
             <tr>
@@ -30,13 +31,14 @@
             </tbody>
         </table>
     <div class="add-employee">
-        <h2>Фильтр по подразделению</h2>
-        <select>
-            <option value="">Все подразделения</option>
-            <option value="Отдел кадров">Отдел кадров</option>
-            <option value="Отдел разработки">Отдел разработки</option>
-            <!-- Добавьте остальные варианты подразделений -->
-        </select>
+        <div class="subdivision-list">
+            <h2>Список подразделений</h2>
+            <ul>
+                <li>Отдел кадров</li>
+                <li>Отдел разработки</li>
+                <!-- Добавьте остальные подразделения -->
+            </ul>
+        </div>
 
 
         <h2>Добавить сотрудника</h2>
