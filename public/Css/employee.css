@@ -6,18 +6,23 @@
 }
 
 .add-employee {
-    width: 50%; /* Занимает половину ширины контейнера */
-    margin-right: 20px; /* Промежуток между блоками */
+    width: 50%;
+    margin-right: 20px;
     margin-left: 20%;
+    background-color: #ffffff; /* Белый цвет фона блока */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень блока */
 }
 
 .add-employee form {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2; /* Более светлый цвет фона формы */
     padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
 }
 
 .list-employees {
-    width: 50%; /* Занимает половину ширины контейнера */
+    width: 50%;
 }
 
 table {
@@ -36,7 +41,11 @@ th {
 }
 
 .filter {
-    width: 30%; /* Ширина блока с фильтром */
+    width: 30%;
+    background-color: #ffffff; /* Белый цвет фона блока с фильтром */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень блока */
 }
 
 .filter select {
@@ -44,3 +53,16 @@ th {
     padding: 10px;
     margin-top: 10px;
 }
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Закругленные углы */
+}
+.btn:hover{
+        background-color: #333333;
+    }

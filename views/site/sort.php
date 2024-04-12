@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Выбор сотрудников</title>
-    <link rel="stylesheet" href="sort.css">
+    <link rel="stylesheet" href="/pop-it/pop-it-mvc/public/css/sort.css">
 </head>
 <body>
 <div class="container">

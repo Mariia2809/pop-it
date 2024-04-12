@@ -6,8 +6,12 @@
 }
 
 .employee-list {
-    width: 70%; /* Ширина таблицы со списком сотрудников */
-    margin-right: 20px; /* Промежуток между блоками */
+    width: 70%;
+    margin-right: 20px;
+    background-color: #ffffff; /* Белый цвет фона таблицы */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень таблицы */
 }
 
 .employee-list table {
@@ -26,7 +30,11 @@
 }
 
 .filter {
-    width: 30%; /* Ширина блока с фильтром */
+    width: 30%;
+    background-color: #ffffff; /* Белый цвет фона блока с фильтром */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень блока с фильтром */
 }
 
 .filter select {

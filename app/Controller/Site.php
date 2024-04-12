@@ -45,6 +45,13 @@ class Site
         app()->route->redirect('/login');
     }
 
+    public function addEmp(Request $request): string
+    {
+        if ($request->method === 'GET') {
+            return new View('addEmp.employee');
+
+        }
+    }
     public function employee(Request $request): string
     {
         if ($request->method === 'GET') {

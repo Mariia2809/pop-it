@@ -61,7 +61,7 @@
 
                 <!-- Здесь будут опции для выбора подразделения -->
             </select><br>
-            <button type="submit">Добавить</button>
+            <button class="btn" type="submit">Добавить</button>
         </form>
     </div>
 </div>
