@@ -20,12 +20,11 @@ class Site
     }
 
 
-
-
     public function hello(): string
     {
         return new View('site.hello', ['message' => 'hello working']);
     }
+
     public function login(Request $request): string
     {
         //Если просто обращение к странице, то отобразить форму
@@ -45,32 +44,45 @@ class Site
         Auth::logout();
         app()->route->redirect('/login');
     }
+
     public function employee(Request $request): string
     {
-        if ($request->method === 'GET' ) {
+        if ($request->method === 'GET') {
             return new View('site.employee');
 
         }
     }
+
     public function subdivision(Request $request): string
     {
-        if ($request->method === 'GET' ) {
+        if ($request->method === 'GET') {
             return new View('site.subdivision');
 
         }
     }
+
     public function addSub(Request $request): string
     {
-        if ($request->method === 'GET' ) {
+        if ($request->method === 'GET') {
             return new View('site.addSub');
 
         }
     }
+
     public function sort(Request $request): string
     {
-        if ($request->method === 'GET' ) {
+        if ($request->method === 'GET') {
             return new View('site.sort');
 
         }
     }
+
+    public function nav(Request $request): string
+    {
+        if ($request->method === 'GET') {
+            return new View('site.nav');
+
+        }
+    }
+
 }

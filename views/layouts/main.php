@@ -21,8 +21,8 @@
             <?php
                 if (!app()->auth::checkRole()):
             ?>
-                    <a href="<?= app()->route->getUrl('/addSub') ?>">Подразделение </a>
-                    <a href="<?= app()->route->getUrl('/employee') ?>">Добавить </a>
+                    <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
+                    <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
 
             <?php else: ?>
                 <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>

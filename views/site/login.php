@@ -12,7 +12,7 @@ if (!app()->auth::check()):
             <h2>Авторизация</h2>
             <input type="text" name="login" placeholder="Логин">
 
-            <input type="password" name="password">
+            <input type="password" name="password" placeholder="Пароль">
         <button>Войти</button>
         </div>
     </form>
