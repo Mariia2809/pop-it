@@ -45,5 +45,11 @@ class Site
         Auth::logout();
         app()->route->redirect('/hello');
     }
+    public function employee(Request $request): string
+    {
+        if ($request->method === 'GET' ) {
+            return new View('site.employee');
 
+        }
+    }
 }
