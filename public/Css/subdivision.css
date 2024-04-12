@@ -1,37 +1,27 @@
 .container {
     max-width: 800px;
-    margin-right: 50%;
+    margin: 0 auto;
     padding: 20px;
     display: flex;
 }
 
-.add-employee {
-    width: 50%; /* Занимает половину ширины контейнера */
+.employee-list {
+    width: 70%; /* Ширина таблицы со списком сотрудников */
     margin-right: 20px; /* Промежуток между блоками */
-    margin-left: 20%;
 }
 
-.add-employee form {
-    background-color: #f2f2f2;
-    padding: 20px;
-}
-
-.list-employees {
-    width: 50%; /* Занимает половину ширины контейнера */
-}
-
-table {
+.employee-list table {
     width: 100%;
     border-collapse: collapse;
 }
 
-table, th, td {
+.employee-list table, .employee-list th, .employee-list td {
     border: 1px solid #ddd;
     text-align: left;
     padding: 8px;
 }
 
-th {
+.employee-list th {
     background-color: #f2f2f2;
 }
 

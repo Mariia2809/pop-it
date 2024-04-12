@@ -52,4 +52,11 @@ class Site
 
         }
     }
+    public function subdivision(Request $request): string
+    {
+        if ($request->method === 'GET' ) {
+            return new View('site.subdivision');
+
+        }
+    }
 }

@@ -29,9 +29,16 @@
             <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
             </tbody>
         </table>
-
-
     <div class="add-employee">
+        <h2>Фильтр по подразделению</h2>
+        <select>
+            <option value="">Все подразделения</option>
+            <option value="Отдел кадров">Отдел кадров</option>
+            <option value="Отдел разработки">Отдел разработки</option>
+            <!-- Добавьте остальные варианты подразделений -->
+        </select>
+
+
         <h2>Добавить сотрудника</h2>
         <form action="add_employee.php" method="post">
             <input type="text" name="last_name" placeholder="Фамилия" required><br>
