@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MessDetectorOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCSFixerOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PHPCodeSnifferOptionsConfiguration">
+    <option name="highlightLevel" value="WARNING" />
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/composer" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/brick/math" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/carbonphp/carbon-doctrine-types" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/collections" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/conditionable" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/container" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/contracts" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/bus" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/events" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/database" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/nesbot/carbon" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/pipeline" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/macroable" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/illuminate/support" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/psr/clock" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/clock" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/polyfill-php83" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/translation" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/nikic/fast-route" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/voku/portable-ascii" />
+      <path value="$PROJECT_DIR$/pop-it-master2/vendor/symfony/translation-contracts" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.4">
+    <option name="suggestChangeDefaultLanguageLevel" value="false" />
+  </component>
+  <component name="PhpStanOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings custom_loader_path="$PROJECT_DIR$/pop-it-master2/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+  <component name="PsalmOptionsConfiguration">
+    <option name="transferred" value="true" />
+  </component>
+</project>

@@ -1,0 +1,56 @@
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.employee-list {
+    width: 60%; /* Ширина блока с таблицей сотрудников */
+    margin-right: 20px; /* Промежуток между блоками */
+}
+
+.employee-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.employee-list table, .employee-list th, .employee-list td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.employee-list th {
+    background-color: #f2f2f2;
+}
+
+.filter-form {
+    width: 40%; /* Ширина блока с формой фильтра */
+    background-color: #ffffff; /* Белый цвет фона блока с формой */
+    padding: 20px;
+    border-radius: 10px; /* Закругленные углы */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Тень блока */
+}
+
+.filter-form input,
+.filter-form select {
+    width: calc(100% - 20px); /* Учитываем отступы */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.filter-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Закругленные углы */
+}
+
+.filter-form button:hover {
+    background-color: #333333;
+}
