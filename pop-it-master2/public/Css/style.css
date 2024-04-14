@@ -1,0 +1,18 @@
+header {
+    background-color: #111; /* Цвет фона */
+    padding: 20px; /* Внутренний отступ */
+    border-radius: 5px;
+}
+
+nav a {
+    color: #fff; /* Цвет текста */
+    text-decoration: none; /* Убираем подчеркивание */
+    margin-right: 10px; /* Внешний отступ справа */
+    text-align: center;
+    display: inline-block; /* Отображение ссылок как блока */
+    margin: 0 10px; /* Внешний отступ между ссылками */
+}
+
+nav a:hover {
+    color: gray; /* Цвет текста при наведении */
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="/pop-it/pop-it-mvc/public/css/style.css">
+    <link rel="stylesheet" href="/pop-it-master2/pop-it-master2/public/css/style.css">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pop it MVC</title>
 </head>
@@ -23,9 +23,13 @@
             ?>
                     <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
                     <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
-                    <a href="<?= app()->route->getUrl('/subdivision') ?>"> jjdj </a>
+                    <a href="<?= app()->route->getUrl('/subdivision') ?>"> Список и подразделение </a>
+                    <a href="<?= app()->route->getUrl('/addSub') ?>"> Подразделение </a>
+                    <a href="<?= app()->route->getUrl('/sort') ?>"> Поиск по критериям </a>
+                    <a href="<?= app()->route->getUrl('/employee') ?>">Список сотрудников </a>
 
-            <?php else: ?>
+
+                <?php else: ?>
                 <a href="<?= app()->route->getUrl('/logout') ?>">Выход </a>
                 <a href="<?= app()->route->getUrl('/addEmp') ?>">Добавить </a>
             <?php
